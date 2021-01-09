@@ -1,13 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Grid, Typography } from '@material-ui/core';
-
+import React from "react"
+import { Link } from "react-router-dom"
+import { Button, Grid, Typography } from "@material-ui/core"
 
 function WhyCurtains() {
     return (
         <Grid item sm={6}>
             <Typography variant="h3" component="h3">
-                Why Curtains?
+                Why Curtains? Test
             </Typography>
             <Typography variant="body1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -20,9 +19,8 @@ function WhyCurtains() {
                     Collections
                 </Link>
             </Button>
-
         </Grid>
-    );
+    )
 }
 
 export default WhyCurtains
